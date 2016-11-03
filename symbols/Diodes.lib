@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3  02/11/2016-14:27:59
+# Converted with eagle-lbr2kicad-1.0.ulp Version:2.50  Build Date:07-OCT-2016  USE THIS PROGRAM AT YOUR OWN RISK
+# devicesets = 1  devicescount =1
+#
+# 1N4148     # 1N4148
+#
+DEF 1N4148 D 0 40 N N 1 L N
+F0 "D" 100 19 45 H V L BNN
+F1 "1N4148" 100 -91 45 H V L BNN
+$FPLIST
+ *DO-35_10*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -50 -50 50 0 N
+P 2 1 0 0 50 0 -50 50 N
+P 2 1 0 0 50 50 50 0 N
+P 2 1 0 0 -50 50 -50 -50 N
+P 2 1 0 0 50 0 50 -50 N
+T 0 -27 6 13 0 1 0 "SpiceOrder 1"  Normal 0 C C
+T 0 173 6 13 0 1 0 "SpiceOrder 2"  Normal 0 C C
+X A A -100 0 100 R 40 40 1 1 P 
+X C C 100 0 100 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+#End Library

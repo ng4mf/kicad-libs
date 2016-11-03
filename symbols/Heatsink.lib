@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3  02/11/2016-14:29:43
+# Converted with eagle-lbr2kicad-1.0.ulp Version:2.50  Build Date:07-OCT-2016  USE THIS PROGRAM AT YOUR OWN RISK
+# devicesets = 1  devicescount =1
+#
+# TO-264     # TO-264
+#
+DEF TO-264 HS 0 40 Y Y 1 L N
+F0 "HS" -225 -100 45 V V L BNN
+F1 "TO-264" 0 0 45 V I L BNN
+$FPLIST
+ *R2*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -300 200 -300 -200 N
+P 2 1 0 0 -300 -200 100 -200 N
+P 2 1 0 0 100 -200 100 200 N
+P 2 1 0 0 100 200 -300 200 N
+X P1 1 300 100 200 L 40 40 1 1 B 
+X P2 2 300 -100 200 L 40 40 1 1 B 
+ENDDRAW
+ENDDEF
+#End Library
